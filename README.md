@@ -29,10 +29,11 @@ Curso de practica de Java, aquí voy a poner mis notas
   - [Condicional If](#condicional-if)
   - [Operadores Ternarios](#operadores-ternarios)
   - [Switch Case](#switch-case)
-  - [Ciclos For](#ciclos-for)
-  - [Ciclos While](#ciclos-while)
-  - [Ciclos Do..While](#ciclos-dowhile)
-  - [Ciclos For-each](#ciclos-for-each)
+  - [Ciclos](#ciclos)
+    - [Ciclos For](#ciclos-for)
+    - [Ciclos While](#ciclos-while)
+    - [Ciclos Do..While](#ciclos-dowhile)
+    - [Ciclos For-each](#ciclos-for-each)
   - [Comandos](#comandos)
 
 ## ¿Qué es Java?
@@ -347,7 +348,9 @@ switch (x){
 
 Al final de cada **case** añadimos la línea break para saltar al siguiente bloque.
 
-## Ciclos For
+## Ciclos
+
+### Ciclos For
 
 Los ciclos **for** son utiles cuando conocemos la cantidad de veces que algo va a ser repetido. Declaramos una varaible para contar y en cada iteración la aumentamos hasta que alcancemos a la cantidad de veces que queremos ejecutar el mismo código.
 
@@ -359,7 +362,7 @@ for (int i = 0; i < 5; i++) {
 
 ```
 
-## Ciclos While
+### Ciclos While
 
 Los ciclos **while** son utiles cuando no conocemos la cantidad de veces que algo va a ser repetido. Puede ser dependiente de un valor (que el usuario ingresa).
 
@@ -375,7 +378,7 @@ while (unaCondicion){
 
 Utilizamos el comando **break** para salir del ciclo.
 
-## Ciclos Do..While
+### Ciclos Do..While
 
 Los ciclos **Do...While** son similares a los **While** pero estos son ejecutados al menos una vez. Al contrario un ciclo while puede no ejecutarse si su condición inicial es falsa.
 
@@ -387,7 +390,7 @@ do {
 
 ```
 
-## Ciclos For-each
+### Ciclos For-each
 
 Los ciclos **ForEach** son utiles para iterar sobre un arreglo o colección.
 

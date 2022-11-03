@@ -42,7 +42,7 @@ Java es uno de los lenguajes de programación más populares en el mundo. Con Ja
 
 ## Prerrequisitos
 
-Necesitaremos del [Java Development Kit](https://www.oracle.com/java/technologies/downloads/) **(JDK)** para realizar aplicaciones con Java. El **JDK** contiene un compilador, el Java Runtime
+Necesitaremos del [Java Development Kit](https://www.oracle.com/java/technologies/downloads/) **(JDK)** para realizar aplicaciones con Java.
 
 ## Variables
 

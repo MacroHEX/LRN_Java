@@ -114,7 +114,7 @@ String nombre = "Martin";
 String pais = "Paraguay";
 int edad = 26;
 
-// %s especifica una string
+// %s especifica un string
 // %d especifica un int
 // %f especifica un float
 // %c especifica un char

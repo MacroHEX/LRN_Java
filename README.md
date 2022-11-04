@@ -12,6 +12,7 @@ Curso de practica de Java, aquí voy a poner mis notas
     - [Declaración de Variables](#declaración-de-variables)
   - [Referencias](#referencias)
   - [Cadenas](#cadenas)
+    - [Formato de Cadenas](#formato-de-cadenas)
     - [Métodos Útiles de las Cadenas](#métodos-útiles-de-las-cadenas)
   - [Secuencias de Escape](#secuencias-de-escape)
   - [Arreglos](#arreglos)
@@ -102,6 +103,26 @@ Las cadenas pertecen al tipo por referencia pero no necesitamos utilizar el oper
 ```java
 
 String nombre = "Martin";
+
+```
+
+### Formato de Cadenas
+
+```java
+
+String nombre = "Martin";
+String pais = "Paraguay";
+int edad = 26;
+
+// %s especifica una string
+// %d especifica un int
+// %f especifica un float
+// %c especifica un char
+// %b especifica un boolean
+
+String cadenaFormateada = String.format("Mi nombre es %s. Soy de %s. Tengo %d años.", nombre, pais, edad);
+
+System.out.println(cadenaFormateada);
 
 ```
 
